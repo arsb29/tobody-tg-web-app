@@ -10,6 +10,7 @@
   background-color: var(--tg-theme-secondary-bg-color);
   overflow: hidden;
   position: relative;
+  max-height: 234px;
 
   &:first-child {
     flex: 1 0 80%;
