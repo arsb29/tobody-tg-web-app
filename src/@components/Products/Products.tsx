@@ -25,7 +25,7 @@ export function Products(props: Props) {
                     </div>
                     <div>
                         <div className={styles.title}>{title}</div>
-                        <div className={styles.price}>{price}</div>
+                        <div className={styles.price}>{price} ₽</div>
                     </div>
                 </Link>
             ))}

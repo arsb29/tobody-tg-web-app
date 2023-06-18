@@ -1,2 +1,17 @@
 @import 'null';
 @import 'mixins';
+
+:root {
+  --tobody-theme-bg-color: var(--tg-theme-bg-color, #ffffff);
+  --tobody-theme-text-color: var(--tg-theme-text-color, #020202);
+  --tobody-theme-hint-color: var(--tg-theme-hint-color, #989898);
+  --tobody-theme-link-color: var(--tg-theme-link-color, #7baff3);
+  --tobody-theme-button-color: var(--tg-theme-button-color, #5ac8fb);
+  --tobody-theme-button-text-color: var(--tg-theme-button-text-color, #ffffff);
+  --tobody-theme-secondary-bg-color: var(--tg-theme-secondary-bg-color, #f3f2f8);
+}
+
+body {
+  background-color: var(--tobody-theme-bg-color);
+  color: var(--tobody-theme-text-color);
+}
