@@ -10,7 +10,8 @@ module.exports = {
         filename: '[name].[hash:8].js',
         sourceMapFilename: '[name].[hash:8].map',
         chunkFilename: '[id].[hash:8].js',
-        assetModuleFilename: 'assets/[hash][ext][query]'
+        assetModuleFilename: 'assets/[hash][ext][query]',
+        publicPath: '/'
     },
     devtool: 'inline-source-map',
     optimization: {

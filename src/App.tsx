@@ -5,6 +5,7 @@ import {Catalog} from './@components/Catalog';
 import {Layout} from './@components/Layout';
 import {Man} from './@components/Man';
 import {Woman} from './@components/Woman';
+import {Product} from './@components/Product';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
                 <Route path="/catalog" element={<Catalog />} />
                 <Route path="/man" element={<Man />} />
                 <Route path="/woman" element={<Woman />} />
+                <Route path="/product/:productId" element={<Product />} />
                 <Route path="/about" element={<Man />} />
                 <Route path="/certificate" element={<Man />} />
                 <Route path="/delivery" element={<Man />} />

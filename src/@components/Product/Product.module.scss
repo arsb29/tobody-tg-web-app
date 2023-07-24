@@ -1,0 +1,49 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--tobody-theme-text-color);
+}
+
+.image {
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article {
+  font-size: 16px;
+  color: var(--tobody-theme-hint-color);
+}
+
+.price {
+  font-size: 20px;
+  color: var(--tobody-theme-text-color);
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--tobody-theme-hint-color);
+}
+
+.button {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: var(--tobody-theme-button-text-color);
+  background-color: var(--tobody-theme-button-color);
+}
