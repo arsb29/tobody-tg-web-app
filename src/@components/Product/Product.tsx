@@ -1,9 +1,11 @@
 import React from 'react';
-import { useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
+import {useBackButton} from '../../hooks'
 import {products} from '../../products';
 import styles from './Product.module.scss';
 
 export function Product() {
+    useBackButton();
     const {productId} = useParams();
     const product = products.find(({id}) => id === productId);
     if (!product) return null;
