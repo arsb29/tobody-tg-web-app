@@ -1,11 +1,15 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import {Shop} from 'local/src/@components/Shop';
-import {Catalog} from 'local/src/@components/Catalog';
-import {Layout} from 'local/src/@components/Layout';
-import {Man} from 'local/src/@components/Man';
-import {Woman} from 'local/src/@components/Woman';
-import {Product} from 'local/src/@components/Product';
+import {Layout} from 'local/src/components/Layout';
+import {Man} from 'local/src/pages/Man';
+import {About} from 'local/src/pages/About';
+import {Certificate} from 'local/src/pages/Certificate';
+import {Delivery} from 'local/src/pages/Delivery';
+import {Woman} from 'local/src/pages/Woman';
+import {Shop} from 'local/src/pages/Shop';
+import {Catalog} from 'local/src/pages/Catalog';
+import {Product} from 'local/src/pages/Product';
+import {Contacts} from 'local/src/pages/Contacts';
 
 
 export default function App() {
@@ -17,10 +21,10 @@ export default function App() {
                 <Route path="/man" element={<Man />} />
                 <Route path="/woman" element={<Woman />} />
                 <Route path="/product/:productId" element={<Product />} />
-                <Route path="/about" element={<Man />} />
-                <Route path="/certificate" element={<Man />} />
-                <Route path="/delivery" element={<Man />} />
-                <Route path="/contacts" element={<Man />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/certificate" element={<Certificate />} />
+                <Route path="/delivery" element={<Delivery />} />
+                <Route path="/contacts" element={<Contacts />} />
             </Route>
         </Routes>
     );

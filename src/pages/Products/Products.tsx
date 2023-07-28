@@ -1,14 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Products.module.scss';
+import {ProductType} from 'local/src/products';
 
-export type ProductType = {
-    id: string,
-    title: string,
-    images: any[],
-    price: number,
-    gender: 'male' | 'female'
-}
 
 type Props = {
     products: ProductType[]

@@ -1,6 +1,6 @@
 import React, {useMemo} from 'react';
 import {useBackButton} from 'local/src/hooks'
-import {Products} from 'local/src/@components/Products';
+import {Products} from 'local/src/pages/Products';
 import {products} from 'local/src/products';
 import styles from './Woman.module.scss';
 

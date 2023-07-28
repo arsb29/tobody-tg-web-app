@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import {ProductType} from 'local/src/@components/Products';
+import {ProductType} from './types';
 import costumeCacaoMale from './assets/costumeCacaoMale.jpg';
 import costumeMaroccoMale from './assets/costumeMaroccoMale.jpg';
 import costumeMistMale from './assets/costumeMistMale.jpg';

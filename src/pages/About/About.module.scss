@@ -1,0 +1,20 @@
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.image {
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--tobody-theme-hint-color);
+}
