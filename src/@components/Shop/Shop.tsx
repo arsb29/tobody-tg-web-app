@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {useTelegram} from '../../hooks';
+import {useTelegram} from 'local/src/hooks';
 import about from './assets/about.jpg';
 import man from './assets/man.jpg';
 import woman from './assets/woman.jpg';

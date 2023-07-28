@@ -1,7 +1,7 @@
 import React from 'react';
 import {useParams} from 'react-router-dom';
-import {useBackButton} from '../../hooks'
-import {products} from '../../products';
+import {useBackButton} from 'local/src/hooks'
+import {products} from 'local/src/products';
 import styles from './Product.module.scss';
 
 export function Product() {

@@ -35,7 +35,10 @@ module.exports = {
     ],
     resolve: {
         modules: [__dirname, 'src', 'node_modules'],
-        extensions: ['.js', '.tsx', '.ts']
+        extensions: ['.js', '.tsx', '.ts'],
+        alias: {
+            local: path.resolve(__dirname, "./")
+        }
     },
     module: {
         rules: [

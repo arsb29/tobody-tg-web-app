@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import {Shop} from './@components/Shop';
-import {Catalog} from './@components/Catalog';
-import {Layout} from './@components/Layout';
-import {Man} from './@components/Man';
-import {Woman} from './@components/Woman';
-import {Product} from './@components/Product';
+import {Shop} from 'local/src/@components/Shop';
+import {Catalog} from 'local/src/@components/Catalog';
+import {Layout} from 'local/src/@components/Layout';
+import {Man} from 'local/src/@components/Man';
+import {Woman} from 'local/src/@components/Woman';
+import {Product} from 'local/src/@components/Product';
 
 
 export default function App() {

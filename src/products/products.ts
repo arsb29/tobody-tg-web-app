@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+import {ProductType} from 'local/src/@components/Products';
 import costumeCacaoMale from './assets/costumeCacaoMale.jpg';
 import costumeMaroccoMale from './assets/costumeMaroccoMale.jpg';
 import costumeMistMale from './assets/costumeMistMale.jpg';
@@ -13,7 +14,7 @@ import costumeOliveFemale from './assets/costumeOliveFemale.jpg';
 import costumeSpaceFemale from './assets/costumeSpaceFemale.jpg';
 
 
-export const products= [
+export const products: ProductType[] = [
     {id: 'costumeMistMale', title: 'Летний костюм MIST', images: [costumeMistMale], price: 7800, gender: 'male'},
     {id: 'costumeSpaceMale', title: 'Летний костюм SPACE', images: [costumeSpaceMale], price: 7800, gender: 'male'},
     {id: 'costumeTofuMale', title: 'Летний костюм TOFU', images: [costumeTofuMale], price: 7800, gender: 'male'},

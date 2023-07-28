@@ -1,5 +1,6 @@
-import {useTelegram} from "./useTelegram";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from 'react-router-dom';
+import {useTelegram} from './useTelegram';
+
 
 export const useBackButton = () => {
     const navigate = useNavigate();

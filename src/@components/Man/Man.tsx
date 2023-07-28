@@ -1,7 +1,7 @@
 import React, {useMemo} from 'react';
-import {useBackButton} from '../../hooks'
-import {Products} from '../Products';
-import {products} from '../../products';
+import {useBackButton} from 'local/src/hooks'
+import {Products} from 'local/src/@components/Products';
+import {products} from 'local/src/products';
 import styles from './Man.module.scss';
 
 

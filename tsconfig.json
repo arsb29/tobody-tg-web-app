@@ -6,7 +6,10 @@
     "outDir": "build",
     "esModuleInterop": true,
     "jsx": "react",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "paths": {
+      "local/*": ["./*"],
+    }
   },
   "exclude": [
     "node_modules"
